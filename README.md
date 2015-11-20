@@ -5,11 +5,11 @@ A fun little project made to supplement my research into the history of Enigma, 
 This was my first in-depth look into encryption, and really sparked my interest for the field of cyber-security.
 
 I replicated the functionality of the enigma machine exactly - a quick breakdown of how it works:
-    1. The sender sets up their machine using the daily settings (distributed monthly on paper)
-    2. They then input each letter of the plaintext message 1 by 1 and record the result
-    3. transmit the result
-    4. The receiver uses the same daily settings, and inputs the encrypted message
-    5. This returns the plaintext message
+1. The sender sets up their machine using the daily settings (distributed monthly on paper)
+2. They then input each letter of the plaintext message 1 by 1 and record the result
+3. transmit the result
+4. The receiver uses the same daily settings, and inputs the encrypted message
+5. This returns the plaintext message
 
 The inner workings of the machine are quite fascinating - an electromechanical method of encryption.
 
