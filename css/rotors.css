@@ -1,0 +1,20 @@
+        select, input[type="text"] {
+           width: 160px;
+           box-sizing: border-box;
+        }
+        section {
+           padding: 8px;
+           background-color: #f0f0f0;
+           overflow: auto;
+        }
+        section > div {
+          float: left;
+          padding: 4px;
+        }
+        section > div + div {
+          width: 40px;
+          text-align: center;
+        }
+        fieldset {
+            padding:10px;margin-top:10px;
+        }
