@@ -1,7 +1,7 @@
 # enigma
-a simulation of the enigma machine in php for Extended Project Qualification, 2013-14
+A simulation of the enigma machine in php created as part of my Extended Project Qualification, 2013-14
 
-A fun little project made to supplement my research into the history of Enigma, I ran this on a Raspberry Pi.
+A fun little project made to supplement my research into the history of Enigma, code-making, and code-braking, I ran this on a Raspberry Pi.
 This was my first in-depth look into encryption, and really sparked my interest for the field of cyber-security.
 
 I replicated the functionality of the enigma machine exactly - a quick breakdown of how it works:
@@ -17,7 +17,7 @@ The inner workings of the machine are quite fascinating - an electromechanical m
 I wrote PHP functions to model each part of the machine seperately - e.g. one to pass letters through the plugboard, one for the first pass through the rotors, and another for the reflected pass through them.
 The rotors also have to be carefully incremented - the third rotor rotates once for every 676 rotations of the first.
 
-The UI:
+### The UI:
 
 Operator inputs daily settings and message here:
 
